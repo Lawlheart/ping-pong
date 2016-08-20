@@ -34,12 +34,14 @@
                 <li>Numbers divisible by 3 and 5 become 'pingpong'</li>
             </ol>
             <div class="input bold">
-                Enter your number here:
-                <input id="pingPong" type="text">
-                <button class="btn">Ping Pong!</button>
+                <label for="pingPong">Enter your number here:</label>
+                <input id="pingPong" type="text" name="pingPong"/>
+                <button class="btn" onclick="pingPong()">Ping Pong!</button>
             </div>
             <div id="output"></div>
         </div>
     </main>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.js"></script>
+    <script src="./app.js"></script>
 </body>
 </html>
