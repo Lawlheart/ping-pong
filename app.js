@@ -1,7 +1,6 @@
-
 function pingPong() {
   var number = $("#pingPong").val();
-  var $list = $("<ul></ul>")
+  var $list = $("<ul></ul>");
   for(var i=1; i<=number; i++) {
     var output;
     if(i % 5 === 0 && i % 3 === 0) {

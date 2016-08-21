@@ -1,3 +1,5 @@
+/* Colors obtained from example image using eyedropper from colorzilla chrome extension */
+
 html, body {
     height: 100%;
 }
@@ -28,6 +30,7 @@ header h1 {
     color: #fff;
 }
 
+
 #sidebar h4 {
     color: #000;
     font-size: 21px;
@@ -47,4 +50,10 @@ button {
 
 .bold {
     font-weight: bold;
+}
+
+@media screen and (max-width: 767px) {
+    #sidebar {
+        height: 240px;
+    }
 }
